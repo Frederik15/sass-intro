@@ -1,0 +1,50 @@
+div {
+  background-color: black;
+  position: absolute; }
+
+/* Parameter: */
+$universal: 30%;
+$klein:     5%;
+$mittel:    40%;
+$gross:     95%;
+$two:       200px;
+$six:       600px;
+$ten:       1000px;
+
+
+
+
+/* Regeln */
+.el-1 {
+  top:    $klein*4;
+  bottom: $mittel;
+  left:   $mittel+$mittel;
+  right:  $klein*2;
+}
+
+
+.el-2 {
+  top:    $klein;
+  bottom: $six;
+  left:   $universal;
+  right:  $universal;
+}
+
+
+.el-3 {
+  top:    $mittel;
+  bottom: $mittel;
+  left:   $two;
+  right:  $mittel;
+  transform: rotate(45deg);
+}
+
+
+.el-4 {
+  top:    $klein*4;
+  bottom: $mittel;
+  left:   60%+$klein;
+  right:  30%;
+  transform: rotate(45deg);
+}
+
