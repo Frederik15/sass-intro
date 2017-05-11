@@ -1,5 +1,5 @@
-256 colours - Webtechnologien, SASS is the new CSS 
-SS 2017
+# 256 colours - Webtechnologien, SASS is the new CSS 
+## SS 2017
 
 https://frederik15.github.io/sass-intro/
 
